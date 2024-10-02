@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.parent{
+  display: flex;
+  /* background-color: aqua; */
+  margin-top: 30px;
+  height: 580px;
+}
+
+.child1{
+  width: fit-content;
+  height: 490px;
+  margin: 40px;
+  font-size: 80px;
+  font-weight: 900;
+  background-color: bisque;
+  border-color: purple;
+  
+}
+
+.child2{
+  /* background-color: blue; */
+  height: 490px;
+  position: absolute;
+  right: 0;
+  margin-right: 50px;
+  margin-top: 90px;
+  width: 350px;
+}
+
+.color{
+color: purple;
+}
+
